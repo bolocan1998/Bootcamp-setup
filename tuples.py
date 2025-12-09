@@ -1,0 +1,13 @@
+t=(1,2,3,4)
+mylist=[1,2,3,4,5]
+print(type(t))
+print(type(mylist))
+print(len(t))
+print(len(mylist))
+t=('one',0,'y')
+print(t[0])
+print(t[::])
+t=('a','a','a','c','c','b')
+print(t.count('a'),"'a' in t")
+print(t.index('a',))
+print(t.index('b'))
